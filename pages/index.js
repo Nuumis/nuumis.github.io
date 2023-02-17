@@ -52,7 +52,7 @@ export default function Home() {
               <AiFillGithub />
             </div>
             <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden md:h-100 md:w-100' >
-              <Image src={fox} fill cover />
+              <Image src={fox} alt="image" fill cover />
             </div>
           </section>
           <section>
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <div className='lg:flex gap-10'>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src={asd1} width={100} height={100} />
+                <Image src={asd1} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Beautiful Designs
                 </h3>
@@ -79,7 +79,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Indesign</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src={asd2} width={100} height={100} />
+                <Image src={asd2} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Beautiful Designs
                 </h3>
@@ -94,7 +94,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Indesign</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-                <Image src={asd3} width={100} height={100} />
+                <Image src={asd3} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Beautiful Designs
                 </h3>
@@ -122,7 +122,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web1}
+                  src={web1} alt="image"
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -131,7 +131,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web2}
+                  src={web2} alt="image"
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -140,7 +140,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web3}
+                  src={web3} alt="image"
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -149,7 +149,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web4}
+                  src={web4} alt="image"
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -158,7 +158,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web5}
+                  src={web5} alt="image"
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -167,7 +167,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  src={web6}
+                  src={web6} alt="image"
                 />
               </div>
             </div>
