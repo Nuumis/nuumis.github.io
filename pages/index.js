@@ -31,7 +31,7 @@ export default function Home() {
           <section className=' min-h-screen'>
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl font-rubik text-black dark:text-white'  >nuumis.</h1>
-              <ul className='flex items-center'>
+              <ul className='flex items-center list-none'>
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer text-2xl' />
                 </li>
@@ -58,13 +58,13 @@ export default function Home() {
           </section>
           <section>
             <div className='text-center'>
-              <h3 className='text-3xl py-1 font-rubik'>Placeholder</h3>
+              <h3 className='text-3xl py-1 font-rubik dark:text-gray-100' >Placeholder</h3>
               <p className='text-md py-5 leading-9 font-rubik text-gray-600 md:text-xl'>Welcome to my website! I&apos;m an ICT engineering
                 student with a passion for programming and web development, and I&apos;m excited to
                 share my journey and projects with you.</p>
             </div>
             <div className='lg:flex gap-10'>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 text-gray-100 flex-1">
                 <Image src={asd1} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-rubik font-medium pt-8 pb-2  ">
                   Awsum Designs
@@ -74,12 +74,12 @@ export default function Home() {
                   design theory.
                 </p>
                 <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Midjourney</p>
-                <p className="text-gray-800 py-1">Lightroom</p>
+                <p className="text-gray-800  py-1 dark:text-gray-100">Photoshop</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Midjourney</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Lightroom</p>
 
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 text-gray-100 flex-1">
                 <Image src={asd2} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-rubik font-medium pt-8 pb-2  ">
                   Awsum Designs
@@ -89,12 +89,12 @@ export default function Home() {
                   design theory.
                 </p>
                 <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Midjourney</p>
-                <p className="text-gray-800 py-1">Lightroom</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Photoshop</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Midjourney</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Lightroom</p>
 
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 text-gray-100 flex-1">
                 <Image src={asd3} alt="image" width={100} height={100} />
                 <h3 className="text-lg font-rubik font-medium pt-8 pb-2  ">
                   Awsum Designs
@@ -104,9 +104,9 @@ export default function Home() {
                   design theory.
                 </p>
                 <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Midjourney</p>
-                <p className="text-gray-800 py-1">Lightroom</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Photoshop</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Midjourney</p>
+                <p className="text-gray-800 py-1 dark:text-gray-100">Lightroom</p>
 
               </div>
 
