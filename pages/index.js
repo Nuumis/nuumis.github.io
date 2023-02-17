@@ -37,14 +37,16 @@ export default function Home() {
                 </li>
                 <li>
                   <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="#">Resume</a>
+                  <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a>
+
                 </li>
               </ul>
             </nav>
             <div className='text-center p-10'>
               <h2 className='text-5xl py-2 font-rubik text-teal-600 font-medium md:text-6xl'>Vili-Petteri Maunu</h2>
               <h3 className='text-2xl py-2 font-rubik md:text-3xl'>Developer and designer.</h3>
-              <p className='text-md py-5 leading-9 font-rubik text-gray-600 md:text-xl'>Welcome to my website! I'm an ICT engineering student with a passion for programming
-                and web development, and I'm excited to share my journey and projects with you.</p>
+              <p className='text-md py-5 leading-9 font-rubik text-gray-600 md:text-xl'>Welcome to my website! I&apos;m an ICT engineering student with a passion for programming
+                and web development, and I&apos;m excited to share my journey and projects with you.</p>
             </div>
             <div className='text-5xl py-8 flex justify-center gap-7 text-red-400'>
               <AiFillInstagram />
@@ -58,8 +60,8 @@ export default function Home() {
           <section>
             <div className='text-center'>
               <h3 className='text-3xl py-1'>Placeholder</h3>
-              <p className='text-md py-5 leading-9 font-rubik text-gray-600'>Welcome to my website! I'm an ICT engineering
-                student with a passion for programming and web development, and I'm excited to
+              <p className='text-md py-5 leading-9 font-rubik text-gray-600'>Welcome to my website! I&apos;m an ICT engineering
+                student with a passion for programming and web development, and I&apos;m excited to
                 share my journey and projects with you.</p>
             </div>
             <div className='lg:flex gap-10'>
